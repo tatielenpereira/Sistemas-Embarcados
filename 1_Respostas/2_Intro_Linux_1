@@ -1,90 +1,29 @@
-14/08/2019
+19/08/2019
 
-1-Por que o Linux recebeu esse nome?
+Para todas as questões, escreva os comandos correspondentes no terminal.
 
-2-O que são daemons?
+1- Escreva o texto "Ola mundo cruel!" em um arquivo denominado "Ola_mundo.txt". Apresente o conteúdo deste arquivo no terminal.
 
-3-O que é o shell?
-Linha de comando, completa palavras e comandos.
+2- Apresente o nome de todos os arquivos e pastas na pasta 'root'.
 
-4-Por que é importante evitar executar o terminal como super-usuário(root)?
-Porque ele tem controle total sobre o sistema.
+3- Apresente o tipo de todos os arquivos e pastas na pasta 'root'.
 
-5-Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
-tab
-6-Quais botões do teclado apresentam instruções escritas anteriormente?
-seta para cima
+4- Apresente somente as pastas dentro da pasta 'root'.
 
-7-Apresente os respectivos comandos no terminal para: 
-(a) Obter mais informações sobre um comando. 
-man (palavra) manual do programa/comando.
+5- Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
 
-(b) Apresentar uma lista com os arquivos dentro de uma pasta. 
-ls mostra a lista de arquivos.
-ls -l apresenta lista completa sobre os arquivos dentro da pasta.
-ls -la mostra os arquivos ocultos da pasta.
+Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Questoes/02_Intro_Linux_arqs.zip
 
-(c) Apresentar o caminho completo da pasta. 
-pwd
+6- Liste somente os arquivos com extensão .txt.
 
-(d) Trocar de pasta. 
-cd
+7- Liste somente os arquivos com extensão .png.
 
-(e) Criar uma pasta. 
-mkdir (sem espaço, entre aspas)
-(f) Apagar arquivos definitivamente. 
-rm (não vai para a lixeira)
+8- Liste somente os arquivos com extensão .jpg.
 
-(g) Apagar pastas definitivamente. 
-rm -rf (não vai para a lixeira)
+9- Liste somente os arquivos com extensão .gif.
 
-(h) Copiar arquivos. 
-cp
-$ cp ola.txt ~/documents //(caminho absoluto)movendo a pasta ola.txt do desktop para documents, vc já tem que estar na pasta desktop
-$ cp ola.txt ../documens //(caminho relativo)
+10- Liste somente os arquivos que contenham o nome 'cal'.
 
-(i) Copiar pastas. 
-$ cp -r
+11- Liste somente os arquivos que contenham o nome 'tux'.
 
-(j) Mover arquivos. 
-$ mv
-
-(k) Mover pastas. 
-$ mv -r
-
-(l) Renomear pastas. 
-$ mv ola.txt oi.txt //mudando o nome de ola para oi, está movendo
-
-(m) Apresentar o conteúdo de um arquivo. 
-
-(n) Apresentar o tipo de um arquivo. 
-
-(o) Limpar a tela do terminal. 
-clear 
-(p) Encontrar ocorrências de palavras-chave em um arquivo-texto. 
-
-(q) Ordenar informações em um arquivo-texto. 
-
-(r) Substituir ocorrências de palavras-chave em um arquivo-texto. 
-sed
-(s) Conferir se dois arquivos são iguais. 
-
-(t) Escrever algo na tela.
-cat // mostra um texto na tela
-
-man (palavra) manual do programa/comando
-file dá informações sobre o arquivo
-chmod 
-apagar pasta inteira -rf o f para forçar apagar tudo
-cd troca o diretorio
-ls -la > cria um arquivo se ele nao extiste
-call >> manda um texto para um arquivo
-greo ago out //mostra onde tem a palavra ago dentro do out
-ctrl C para o programa 
-cat out.txt | grep ago //mostra todas as linhas com ago dentro
-clear //limpar tela
-clear;ls //faz mais de um comando subsequente sem ter que digitar varias vezes
-rmdir remover diretorio
-history mostra todos que vc já digitou
-history | grep grep //vc olha quantas vezes vc digitou o grep
-
+12- Liste somente os arquivos que comecem com o nome 'tux'.
