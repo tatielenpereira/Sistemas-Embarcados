@@ -1,8 +1,9 @@
    14/08/2019
 
 1-Por que o Linux recebeu esse nome?
-
+Porque é a junção do Unix com o nome do seu criador Linus.
 2-O que são daemons?
+um daemon é um programa de computador que executa como um processo em plano de fundo, em vez de estar sob o controle direto de um usuário interativo. 
 
 3-O que é o shell?
 Linha de comando, completa palavras e comandos.
